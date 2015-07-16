@@ -4,7 +4,7 @@ using System.Collections;
 public class LevelManager : MonoBehaviour {
 
 	public void LoadLevel (string name){
-	aaa	Debug.Log ("New Level load: " + name);
+		Debug.Log ("New Level load: " + name);
 		Application.LoadLevel(name);
 	}
 	
